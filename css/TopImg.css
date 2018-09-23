@@ -1,0 +1,75 @@
+#TopImg {
+    position:relative;
+    background: black;
+    height: 500px;
+    background: linear-gradient(135deg,rgba(0,0,0,.1) 0,#002d77 100%);
+    background-image:linear-gradient(135deg, rgba(0,0,0,.1) 0, #000 100%), url("../Img/RareSteak-jumbotron.jpg");
+    background-position: center;
+    background-size: cover;
+    }
+
+    #contact-info{
+        text-align: right;
+        color:#ADADAD;
+        font-size: .8rem;
+        line-height: 1.5rem;
+        letter-spacing: 1px;
+      }
+
+    #TopImg .title{
+
+        padding: 200px 0 80px;
+        text-align: right;
+
+      }
+
+      .title h1{
+            font-family: 'Rozha One', serif;
+            text-transform: uppercase;
+            color:white ;
+            font-weight: 300;
+            font-size: 4rem;
+        }
+
+        .title h5{
+            text-transform: uppercase;
+            color:white;
+            font-weight: 300;
+        }
+
+        h2{
+            color: white;
+        }
+
+      #contact-info strong{
+            font-weight: bold;
+            color: white;
+            letter-spacing: 1px;
+        }
+
+        .booking{
+            margin-bottom: 10px;
+            color: #ADADAD;
+        }
+
+        h2{
+            font-size: 2rem;
+            margin-bottom: 20px;
+
+        }
+
+        
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+
+    }   .title h1{
+        font-size: 2.5rem;
+   }
+   .contact-info h2{
+       font-size: 1.5rem;
+   }
+    }
+ 

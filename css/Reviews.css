@@ -1,0 +1,54 @@
+#Reviews {
+    text-align: right;
+  }
+
+  #Reviews img{
+    max-width: 500px;
+    float:left;
+  }
+
+#Reviews h2 {
+  font-family: "Rozha One",serif;
+    font-size: 2.5rem;
+    margin: .5rem 0 3rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #202020;
+}
+ #Reviews h4 {
+    font-weight: 600;
+    font-size: .9rem;
+    margin-bottom: 2rem;
+}
+
+ #Reviews .author {
+    font-size: 1rem;
+        color: #ADADAD;
+        font-weight: 300;
+        text-transform: capitalize;
+    }
+
+    #Reviews strong {
+        color:  #202020;
+        font-weight: 700;
+    }
+
+    #Reviews em{
+      font-style: italic;
+    }
+
+/* -- Medua Queries -- */
+
+    @media screen and (max-width: 767px){
+      #Reviews img {
+        max-width: 300px;
+        float: right;
+      }
+      
+      #Reviews .author{
+        margin-bottom: 20px;
+      }
+  }
+
+
+   

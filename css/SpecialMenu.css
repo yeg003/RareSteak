@@ -1,0 +1,93 @@
+#SpecialMenu {
+    padding: 100px 0;
+    background: linear-gradient(135deg,rgba(0,0,0,.1) 0,#002d77 100%);
+    background-image: url("../Img/specialMenubg.jpg");
+    background-position: center;
+    background-size: cover;
+    background: #fafafa;
+  }
+
+      #SpecialMenu h5 {
+        text-align: center;
+        color: #aaa;
+        font-size: .9rem;
+        margin: .5rem 0 1rem;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+    }
+
+    #SpecialMenu h2{
+      font-family: "Rozha One",serif;
+    font-size: 2.5rem;
+    margin: .5rem 0 3rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #202020;
+    text-align: center;
+    }
+
+    #SpecialMenu .box {
+        background: #fff;
+        padding:20px;
+      }
+
+      #SpecialMenu .box-img{
+            width: 100%;
+            height: 200px;
+            background-image: url("../Img/Special-Menu.jpg");
+            background-position: center;
+            background-size: cover;
+            position: relative;
+            margin-bottom: 65px;
+        }
+
+      #SpecialMenu .price-circle {
+            position: absolute;
+            bottom: 0;
+            margin: 0 auto;
+            font-family: 'Rozha One', serif;
+            font-size: 2.5rem;
+            background: #fff;
+            border: 10px solid rgba(255,255,255, .7);
+            height: 100px;
+            width:100px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            left: 50%;
+            transform: translate(-50%, 50%);
+        }
+
+      #SpecialMenu .title {
+            display: block;
+            font-weight: 600;
+            font-size: 1rem;
+            text-align: center;
+        }
+
+        #SpecialMenu .details {
+            font-weight: 300;
+            font-size: 0.9rem;
+            text-align: center;
+            line-height: 2;
+            margin: 0;
+        }
+
+    #SpecialMenu .boxes {
+        padding-bottom: 50px;
+    }
+
+    /* -- Medua Queries -- */   
+
+    @media screen and (max-width: 767px){
+        #SpecialMenu {
+            padding: 0;
+        }
+
+        #SpecialMenu .box{
+            background: #fff;
+            padding:20px;
+            margin: 20px;
+        }
+    }
